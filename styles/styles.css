@@ -1,0 +1,172 @@
+/* Resetando margin e padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral da página */
+  body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container geral */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Cabeçalho e navegação */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Seção sobre mim */
+  #sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #ececec;
+    text-align: center;
+  }
+  
+  #sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #sobre-mim img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  #sobre-mim p {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Estilo das seções */
+  section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+  }
+  
+  h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .servico, .projeto {
+    margin-bottom: 20px;
+  }
+  
+  #servicos .servico, #projetos .projeto {
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #skills li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  /* Aumentando o tamanho das skills */
+  #skills h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+  
+  /* Centralizando o conteúdo de cada seção */
+  #servicos .container,
+  #projetos .container,
+  #skills .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #servicos .servico, 
+  #projetos .projeto {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Seção de Contato */
+  #contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contato label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+  
+  #contato input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contato button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  #contato button:hover {
+    background-color: #555;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
